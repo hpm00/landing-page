@@ -11,7 +11,7 @@ body
     display: flex;
     justify-content: space-between;
     background-color:#1F2937;
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo
@@ -73,11 +73,28 @@ ul
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding: 30px;
 }
 
 .info
 {
     text-align: center;
+}
+
+.heading
+{   
+    text-align: center;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.text 
+{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 /* --------------------------------------------------------------------------------------------- */
 /* Lower Page CSS */
