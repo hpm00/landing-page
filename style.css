@@ -9,7 +9,7 @@ body
 .header
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color:#1F2937;
     padding: 10px;
 }
@@ -22,11 +22,16 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
-.ul
+ul
 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* --------------------------------------------------------------------------------------------- */
