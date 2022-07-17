@@ -84,7 +84,7 @@ ul
 .heading
 {   
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
     color: #1F2937;
     font-size: 36px;
@@ -95,12 +95,18 @@ ul
 {
     font-family: 'Roboto', sans-serif;
     color: grey;
+
 }
 /* --------------------------------------------------------------------------------------------- */
 /* Lower Page CSS */
 .lower-content
 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 90px;
+    text-align: start;
 }
 
 p
@@ -110,23 +116,39 @@ p
     font-family: sans-serif;
     font-style: italic;
 }
+
+.author
+{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: end;
+}
+/* --------------------------------------------------------------------------------------------- */
+/* Bottom Page CSS */
+.bottom-content
+{
+    background-color: white;
+}
+
+.announcement
+{
+    background-color:#3882F6;
+}
+
+
 /* --------------------------------------------------------------------------------------------- */
 /* Footer CSS */
 .footer
 {
     display: flex;
+    padding: 40px;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
 }
-
-
-
-
-
-
-
 
 button
 {
